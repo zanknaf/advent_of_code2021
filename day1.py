@@ -5,7 +5,6 @@ with open("day1.txt") as f:
     sums=[]
     for line in data:
         d.append(int(line))
-    print(d)
     for i in range(0,len(d)-2):
         sums.append(d[i]+d[i+1]+d[i+2])
     a=sums[0]
